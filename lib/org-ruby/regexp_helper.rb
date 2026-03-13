@@ -171,7 +171,7 @@ module Orgmode
     end
 
     def org_image_file_regexp
-      /\.(gif|jpe?g|p(?:bm|gm|n[gm]|pm)|svgz?|tiff?|x[bp]m)/i
+      /\.(gif|jpe?g|webp|p(?:bm|gm|n[gm]|pm)|svgz?|tiff?|x[bp]m)/i
     end
 
     private

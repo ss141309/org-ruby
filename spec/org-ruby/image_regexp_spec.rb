@@ -15,6 +15,7 @@ module Orgmode
       it { expect(regexp.image_file).to match 'some/path/file.gif' }
       it { expect(regexp.image_file).to match 'other.svgz' }
       it { expect(regexp.image_file).to match 'tiffany.tiff' }
+      it { expect(regexp.image_file).to match 'file.webp' }
       it { expect(regexp.image_file).to match 'xx.xpm' }
       it { expect(regexp.image_file).to match 'yy.xbm' }
 
